@@ -1,0 +1,33 @@
+.container_home_page {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    max-width: 100%;
+    margin-bottom: 8px;
+    margin: 16px;
+}
+
+.card:hover {
+    animation: mettre_en_valeur 0.1s ease 0s 1 normal forwards;
+}
+
+@keyframes mettre_en_valeur {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.01);
+    }
+}
+
+.example-card {
+    max-width: 100%;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}

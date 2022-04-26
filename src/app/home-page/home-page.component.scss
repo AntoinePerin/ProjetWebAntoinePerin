@@ -1,0 +1,49 @@
+
+
+.card {
+    max-width: 100%;
+    margin: 16px;
+}
+
+.card:hover {
+    animation: mettre_en_valeur 0.1s ease 0s 1 normal forwards;
+}
+
+@keyframes mettre_en_valeur {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.01);
+    }
+}
+
+.container-paragraphe-image {
+    display: flex;
+}
+
+.logo_EPF {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text1{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+.tab{
+    margin-left: 2em;
+}
+
+.panel-image{
+    display: flex;
+    margin: 40px;
+}
+
+.image-panel{
+    margin-left: 40px;
+}

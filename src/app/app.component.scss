@@ -1,0 +1,93 @@
+mat-sidenav-container {
+    height: 100%;
+    width: 100%;
+}
+
+mat-sidenav {
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #14213D;
+    width: 15%;
+    min-width: 200px;
+}
+
+.white-icon {
+    color: white;
+}
+
+.container-information {
+    background-color: #FCA311;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: Roboto;
+    padding: 10px;
+    margin-top: 15%;
+}
+
+.information{
+    padding: 15px;
+    background-color: black;
+}
+
+.text-info{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+.photoAntoine {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-corps-page{
+    padding-top: 1px;
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+.photoAntoine:hover {
+    animation: faire_bouger_photo 2s ease 0s 1 normal forwards;
+}
+
+@keyframes faire_bouger_photo {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+h1{
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    font-family: Roboto;
+}
+
