@@ -18,6 +18,7 @@ import { MesCompetencesComponent } from './mes-competences/mes-competences.compo
 import { MesCentresDInteretsComponent } from './mes-centres-d-interets/mes-centres-d-interets.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatSidenavModule,
     MatIconModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
