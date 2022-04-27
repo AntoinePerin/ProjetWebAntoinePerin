@@ -17,6 +17,7 @@ import { MesExperiencesProComponent } from './mes-experiences-pro/mes-experience
 import { MesCompetencesComponent } from './mes-competences/mes-competences.component';
 import { MesCentresDInteretsComponent } from './mes-centres-d-interets/mes-centres-d-interets.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
